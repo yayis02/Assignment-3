@@ -1,0 +1,21 @@
+[* Check which number is greater *]
+$$
+integer a, b, max;
+$$
+scan(a);
+scan(b);
+if (a > b) {
+    max = a;
+}
+else {
+    max = b;
+}
+endif
+print(max);
+
+[* Demonstrate additional assignment *]
+a = max + 10;
+b = max - 5;
+print(a);
+print(b);
+$$

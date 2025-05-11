@@ -1,0 +1,14 @@
+[* Sum integers from 1 to n *]
+$$
+integer i, sum, n;
+$$
+sum = 0;
+i = 1;
+scan(n);
+while (i <= n) {
+    sum = sum + i;
+    i = i + 1;
+}
+endwhile
+print(sum);
+$$
